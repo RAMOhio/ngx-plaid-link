@@ -1,0 +1,8 @@
+/*
+ * Public API Surface of ngx-plaid-link
+ */
+export * from './lib/ngx-plaid-link.service';
+export * from './lib/ngx-plaid-link-button.component';
+export * from './lib/ngx-plaid-link.directive';
+export * from './lib/ngx-plaid-link.module';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljX2FwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL25neC1wbGFpZC1saW5rLyIsInNvdXJjZXMiOlsicHVibGljX2FwaS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7R0FFRztBQUdILGNBQWMsOEJBQThCLENBQUM7QUFDN0MsY0FBYyx1Q0FBdUMsQ0FBQztBQUN0RCxjQUFjLGdDQUFnQyxDQUFDO0FBQy9DLGNBQWMsNkJBQTZCLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuICogUHVibGljIEFQSSBTdXJmYWNlIG9mIG5neC1wbGFpZC1saW5rXG4gKi9cblxuZXhwb3J0ICogZnJvbSAnLi9saWIvaW50ZXJmYWNlcyc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9uZ3gtcGxhaWQtbGluay5zZXJ2aWNlJztcbmV4cG9ydCAqIGZyb20gJy4vbGliL25neC1wbGFpZC1saW5rLWJ1dHRvbi5jb21wb25lbnQnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvbmd4LXBsYWlkLWxpbmsuZGlyZWN0aXZlJztcbmV4cG9ydCAqIGZyb20gJy4vbGliL25neC1wbGFpZC1saW5rLm1vZHVsZSc7XG4iXX0=

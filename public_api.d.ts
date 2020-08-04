@@ -1,7 +1,3 @@
-/*
- * Public API Surface of ngx-plaid-link
- */
-
 export * from './lib/interfaces';
 export * from './lib/ngx-plaid-link.service';
 export * from './lib/ngx-plaid-link-button.component';

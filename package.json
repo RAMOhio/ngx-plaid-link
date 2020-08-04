@@ -7,17 +7,6 @@
     "name": "Mike Roberts",
     "url": "https://mikeroberts.engineer"
   },
-  "scripts": {
-    "build": "ng-packagr -p package.json",
-    "pack-dist": "npm pack ./dist/ngx-plaid-link",
-    "publish-dist": "npm publish ./dist/ngx-plaid-link"
-  },
-  "ngPackage": {
-    "dest": "./dist/ngx-plaid-link",
-    "lib": {
-      "entryFile": "src/public_api.ts"
-    }
-  },
   "license": "MIT",
   "homepage": "https://github.com/mike-roberts/ngx-plaid-link",
   "bugs": {
@@ -31,13 +20,17 @@
     "@angular/common": "^9.0.0 || ^8.0.0 || ^7.0.0 || ^6.0.0",
     "@angular/core": "^9.0.0 || ^8.0.0 || ^7.0.0 || ^6.0.0"
   },
-  "devDependencies": {
-    "@angular/common": "^9.1.9",
-    "@angular/compiler": "^9.1.9",
-    "@angular/compiler-cli": "^9.1.9",
-    "@angular/core": "^9.1.9",
-    "@types/jasmine": "^3.5.10",
-    "ng-packagr": "^9.1.5",
-    "typescript": "~3.8.3"
+  "main": "bundles/ngx-plaid-link.umd.js",
+  "module": "fesm5/ngx-plaid-link.js",
+  "es2015": "fesm2015/ngx-plaid-link.js",
+  "esm5": "esm5/ngx-plaid-link.js",
+  "esm2015": "esm2015/ngx-plaid-link.js",
+  "fesm5": "fesm5/ngx-plaid-link.js",
+  "fesm2015": "fesm2015/ngx-plaid-link.js",
+  "typings": "ngx-plaid-link.d.ts",
+  "metadata": "ngx-plaid-link.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.10.0"
   }
 }
